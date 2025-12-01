@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     function aplicarCoresClientes() {
-        const tabela = document.querySelector('table[data-groupid="4843"]');
+        const tabela = document.querySelector('table[data-groupid="4881"]');
         if (!tabela) return;
 
         const linhas = tabela.querySelectorAll('tbody tr:not(.header)');
 
         linhas.forEach(tr => {
-            const campo = tr.querySelector('input[name="inp22009"]');
+            const campo = tr.querySelector('input[name="inp22028"]');
             if (!campo) return;
 
             const valor = campo.value.trim();
@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
